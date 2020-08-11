@@ -5,12 +5,13 @@
     <title>HTML Level Two</title>
     <style media="screen">
     img {
-      width: 300px;
-      height: 150px;
+      width: 100px;
+      height: 50px;
     }
     </style>
   </head>
   <body>
+    <!-- Table sample -->
     <h1>Creating table</h1>
     <table>
       <thead>
@@ -30,6 +31,7 @@
       </tr>
     </table>
 
+<!-- Table quiz -->
     <h1>USA, India, UK's GDP Table</h1>
     <table border="1">
       <thead>
@@ -53,5 +55,54 @@
         <td>2,649,890</td>
       </tr>
     </table>
+    <!-- Form basics -->
+    <form>
+      <h1>Log In</h1>
+      <h2>Please input your email and password</h2>
+
+      <input type="email" name="useremail" value="Email here">
+      <input type="password" name="password" value="">
+      <input type="submit" name="" value="Click Me">
+    </form>
+<hr>
+    <h1>Choose Color</h1>
+    <h2>Click on button</h2>
+    <input type="color" name="" value="">
+    <form class="" action="index.html" method="post">
+      <h2>Enter some text</h2>
+      <input type="text" name="" value="Text goes here">
+    </form>
+    <form class="" action="index.html" method="post">
+      <p>Enter Email</p>
+      <input type="email" name="useremail" value="">
+      <input type="submit" name="" value="Submit">
+    </form>
+    <hr>
+    <form>
+      <label for="userinput">Enter Input:</label>
+
+      <input id="userinput" type="text" name="" value="Hello, world">
+    </form>
+    <hr>
+    <h1>Hotel feedback form</h1>
+    <form method="get">
+        <h2>Are you from inside or outside US?</h2>
+        <label for="inusa">Inside:</label>
+        <input id="inusa" type="radio" name="loc" value="">
+
+        <label for="outusa">Outside:</label>
+        <input id="outusa" type="radio" name="loc" value="">
+
+        <h2>How was your service</h2>
+        <select class="" name="stars">
+          <option value="Great">3</option>
+          <option value="Okay">2</option>
+          <option value="Bad">1</option>
+
+        </select>
+        <h2>Any other feedback?</h2>
+        <textarea name="mytext" rows="8" cols="80"></textarea>
+        <input type="submit" name="" value="Submit">
+    </form>
   </body>
 </html>
