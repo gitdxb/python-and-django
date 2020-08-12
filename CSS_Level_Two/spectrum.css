@@ -1,0 +1,28 @@
+body {
+font-family: 'Luckiest Guy', cursive;
+text-align: center;
+width: 100%;
+}
+
+.box {
+width: 12em;
+height: 26em;
+border-radius: 1em;
+margin: auto;
+display: inline-block;
+}
+.box1 {
+background: #f4f1de;
+}
+.box2 {
+background: #e07a5f;
+}
+.box3 {
+background: #3d405b;
+}
+.box4 {
+background: #81b29a;
+}
+.box5 {
+background: #f2cc8f;
+}
