@@ -1,9 +1,7 @@
 # Python and Django Full Stack Web Developer Bootcamp - Udemy
 This repo is where I'm keeping track of my Udemy course.
+Link: https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/learn/lecture/6598600#questions
 
 ## Timeline
-* Day 1: 12/8 - HTML
-* Day 2:
-* Day 3:
-* Day 4:
-* Day 5:
+* Day started: 12/8 
+
