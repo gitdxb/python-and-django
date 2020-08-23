@@ -22,3 +22,24 @@ print(item)
 converted = set([1,1,1,1,2,3,3,2,2,2,2,3,3,3])
 
 print(converted)
+
+#tuples unpacking
+mypairs = [(1,2),(3,4),(5,6)]
+
+for tup1,tup2 in mypairs:
+    print(tup2)
+    print(tup1)
+
+#list comprehesion
+
+x = [1,2,3,4]
+
+out = []
+for num in x:
+    out.append(num)
+print(out)
+
+#Become
+out = [num for num in x]
+
+print(out)
